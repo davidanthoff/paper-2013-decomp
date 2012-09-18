@@ -59,11 +59,23 @@
     <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DlmIO, Version=2.0.5.0, Culture=neutral, PublicKeyToken=b1f04c18ec875148, processorArchitecture=MSIL" />
+    <Reference Include="EmbeddedSho, Version=2.0.5.27, Culture=neutral, PublicKeyToken=314a316d4cfb815d, processorArchitecture=MSIL" />
+    <Reference Include="MathFunc, Version=2.0.5.0, Culture=neutral, PublicKeyToken=af39242306d6159d, processorArchitecture=MSIL" />
     <Reference Include="MathNet.Numerics">
       <HintPath>..\packages\MathNet.Numerics.2.1.2\lib\Net40\MathNet.Numerics.dll</HintPath>
     </Reference>
+    <Reference Include="MatrixInterf, Version=2.0.5.0, Culture=neutral, PublicKeyToken=1fa71b5ffec10e32, processorArchitecture=MSIL" />
     <Reference Include="MPI">
       <HintPath>..\lib\MPI.dll</HintPath>
+    </Reference>
+    <Reference Include="Rand, Version=2.0.5.0, Culture=neutral, PublicKeyToken=af26ffbb175a1abe, processorArchitecture=MSIL" />
+    <Reference Include="ShoArray, Version=2.0.5.0, Culture=neutral, PublicKeyToken=1635376d5e62ab5f, processorArchitecture=MSIL" />
+    <Reference Include="ShoDB, Version=2.0.5.0, Culture=neutral, PublicKeyToken=44bfc57d893eaf85, processorArchitecture=MSIL" />
+    <Reference Include="ShoPickleHelper, Version=2.0.5.27, Culture=neutral, PublicKeyToken=bfb3ad4f5710911f, processorArchitecture=MSIL" />
+    <Reference Include="ShoViz, Version=2.0.5.0, Culture=neutral, PublicKeyToken=14eb30934789ddca, processorArchitecture=MSIL" />
+    <Reference Include="Stats">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Sho 2.0 for .NET 4\packages\Stats\Stats.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -74,6 +86,7 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
+    <Reference Include="utils, Version=2.0.5.0, Culture=neutral, PublicKeyToken=f71603a15f22664a, processorArchitecture=MSIL" />
     <Reference Include="zlib.net">
       <HintPath>..\packages\zlib.net.1.0.3.0\lib\zlib.net.dll</HintPath>
     </Reference>

@@ -93,8 +93,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConsoleApp.cs" />
+    <Compile Include="DecompPaper.cs" />
     <Compile Include="FundWorkflow.cs" />
     <Compile Include="MarginalDamage.cs" />
+    <Compile Include="MarginalDamage2.cs" />
     <Compile Include="ModelOutput.cs" />
     <Compile Include="PerformanceTest.cs" />
     <Compile Include="Playground.cs" />

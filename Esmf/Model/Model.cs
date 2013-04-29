@@ -262,14 +262,6 @@ namespace Esmf.Model
                                                   where !parametersToFindValueFor.Any(i => pName == i.ParameterName.ToLowerInvariant()) && pName != "region"
                                                   select p.Name;
 
-            if (parametersInFileThatAreNotBound.Count() > 0)
-            {
-                Console.WriteLine();
-                foreach (var p in parametersInFileThatAreNotBound)
-                {
-                    Console.WriteLine("WARNING: Parameter '{0}' is not used by model", p);
-                }
-            }
 
 
             foreach (var p in parametersWithManualValues)
